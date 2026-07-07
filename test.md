@@ -7,7 +7,13 @@ A heading containing characters not allowed in fragments, UTF-8 characters, two 
 
 ## This heading is not unique in the file
 
-TEXT 1
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
 ## This heading is not unique in the file
 
